@@ -446,7 +446,7 @@ body header img {
 }
 /* line 7, ../sass/_header.scss */
 body header .head {
-  height: 100hv;
+  height: 100vh;
 }
 /* line 8, ../sass/_header.scss */
 body header #proba {
@@ -588,7 +588,7 @@ body main .portfolio-menu__item2 {
   line-height: 25px;
   word-wrap: break-word;
   margin: 0 auto;
-  padding: 0px;
+  padding: 0;
   width: 370px;
 }
 
@@ -635,7 +635,7 @@ body main .portfolio-menu__item2 {
   height: 64px;
   display: block;
   margin-bottom: 7px;
-  background: url() no-repeat center center;
+  background: no-repeat center center;
   /* rounded corners */
   -webkit-border-radius: 15px;
   -moz-border-radius: 15px;
@@ -1008,7 +1008,7 @@ ul.slick-dots {
 }
 /* line 240, ../sass/_main.scss */
 .central-sloy__buttom {
-  text-decoration: noen;
+  text-decoration: none;
   z-index: 330;
   position: relative;
   text-align: center;
