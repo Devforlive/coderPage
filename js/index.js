@@ -1,4 +1,4 @@
-$(function() {
+(function($) {
 
   // Masonry Grid
     $('.grid').isotope({
