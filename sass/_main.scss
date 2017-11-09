@@ -1,0 +1,285 @@
+  .wrapper {
+      margin: 50px auto;
+      max-width: 1700px;
+
+    }
+
+    .filter {
+      padding: 20px 0;
+      margin-bottom: 20px;
+      border-bottom: solid 1px #e3e3e3;
+      text-align: center;
+      font-size: 12px;
+    }
+
+    .filter a {
+      margin-right: 10px;
+      color: #666;
+      text-decoration: none;
+      border: none;
+      padding: 4px 15px;
+      display: inline-block;
+
+color: #464646;
+font-family: "Open Sans";
+font-size: 16px;
+font-weight: 400;
+line-height: 12px;
+    }
+
+   .filter a.current {
+      text-decoration: underline red;
+      border:none;
+      color: black;
+    }
+
+    .grid {
+        width: 1500px;
+      margin: 0 auto;
+      padding:0;
+      -webkit-perspective: 1600px;
+      perspective: 1600px;
+    }
+
+    .grid-item {
+      width: 270px;
+      height: 270px;
+      margin-bottom: 10px;
+      border-radius: 4px;
+      overflow: hidden;
+      cursor: pointer;
+      position: relative;
+    }
+
+    .fancybox {
+      display: block;
+      width: 270px;
+      height: 100%;
+      border-radius: 4px;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      transition: all .5s;
+    }
+
+    .grid-item:hover .fancybox {
+      transform: scale(1.1);
+    }
+
+     .grid-item:nth-child(1) .fancybox {
+      background-image: url(../image/image1.png);
+    }
+
+    .grid-item:nth-child(2) .fancybox {
+      background-image: url(../image/image2.png);
+    }
+
+    .grid-item:nth-child(3) .fancybox {
+      background-image: url(../image/image3.png);
+    }
+
+    .grid-item:nth-child(4) .fancybox {
+      background-image: url(../image/image4.png);
+    }
+    .grid-item:nth-child(7) .fancybox {
+      background-image: url(../image/image7.png);
+    }
+  
+
+    .grid-item:nth-child(6) .fancybox {
+      background-image: url(../image/image6.png);
+    }
+
+
+  .grid-item:nth-child(5) .fancybox {
+      background-image: url(../image/image5.png);
+    }
+    .grid-item:nth-child(8) .fancybox {
+      background-image: url(../image/image8.png);
+    }
+
+    .grid-item:nth-child(9) .fancybox {
+      background-image: url(../image/image9.png);
+    }
+
+    .grid-item:nth-child(10) .fancybox {
+      background-image: url(../image/image10.png);
+    }
+
+    .grid-item:nth-child(11) .fancybox {
+      background-image: url(../image/image11.png);
+    }
+
+    .grid-item:nth-child(12) .fancybox {
+      background-image: url(../image/image12.png);
+    }
+.grid-item{width: 270;}
+
+
+ .grid-item:nth-child(1) {
+                height: 361px;
+    }
+
+    .grid-item:nth-child(2) {
+                height: 229px;
+    }
+    .grid-item:nth-child(3) {
+                height: 301px;
+    }
+    .grid-item:nth-child(4) {
+                height: 361px;
+    }
+    .grid-item:nth-child(5) {
+    height: 361px;
+        }
+    .grid-item:nth-child(6) {
+    height: 344px;
+    }
+    .grid-item:nth-child(7) {
+    height: 374px;
+    }
+    .grid-item:nth-child(8) {
+    height: 269px;
+        }
+    .grid-item:nth-child(9) {
+    height: 209px;
+        }
+    .grid-item:nth-child(10) {
+    height: 357px;
+        }
+    .grid-item:nth-child(11) {
+    height: 255px;
+        }
+    .grid-item:nth-child(12) {
+    height: 301px;
+        }
+
+
+.sl{
+	width: 1028px;
+	margin: 0 auto;
+	padding-bottom: 30px;
+	&__item {
+		height: 364px;
+		display: flex !important;
+	}
+	&__about {
+		text-align: right;
+		height: 364px;
+		overflow: auto;
+	}
+	&__headline {
+		color: #464646;
+		
+		font-size: 20px;
+		font-weight: 400;
+		padding: 26px 14px 0 0;
+		letter-spacing: 1px;
+		margin: 0;
+	}
+	&__position {
+		color: #81868e;
+		
+		font-size: 14px;
+		font-weight: 300;
+		font-style: italic;
+		text-transform: uppercase;
+		letter-spacing: 1px;
+		margin: 0;
+		padding: 8px 19px 24px 0;
+	}
+	&__desc {
+		padding-left: 306px;
+		color: #81868e;
+		font-family: "Open Sans";
+		font-size: 14px;
+		font-weight: 400;
+		line-height: 25px;
+		padding-right: 16px;
+	}
+}
+
+.section-slider{margin-bottom: 64px;
+    &__item1{padding-top:80px;
+color: #333b46;
+font-family: "Source Sans Pro";
+font-size: 20px;
+font-weight: 300;
+line-height: 12px;
+text-transform: uppercase;
+    text-align: center;}
+    &__item2{padding-top:42px;
+        padding-bottom: 60px;
+width: 417px;
+height: 39px;
+color: #81868e;
+font-family: "Open Sans";
+font-size: 14px;
+font-weight: 400;
+line-height: 25px; word-wrap: break-word;
+    text-align: center;
+    margin: auto}
+}
+.main{min-width: 1200px;
+    margin: 0 auto;}
+.sl_slide>img{width:90%;
+    margin: 0 auto;}
+
+body > div{padding-bottom: 30px;
+    margin-bottom: 0px;}
+  div.sl_slide.slick-slide.slick-current.slick-active > img{background:white;
+      margin-top: 2%;}
+ul.slick-dots{background:white;    
+    display: block;
+    width: 90%;
+    margin: 0px 5%;}
+
+
+.central-sloy {width: 100%;height: 201px; ;
+    &__text{bottom: 380px;
+        position: relative;
+        text-align: center;
+color: #ffffff;
+font-family: "Open Sans";
+font-size: 20px;
+font-weight: 400;
+line-height: 25px;z-index: 330;}
+    &__buttom{text-decoration: noen;z-index: 330;
+        position: relative;
+        text-align: center;
+        bottom: 330px;
+        margin: 0 auto;
+        font-family: "Open Sans";
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 12px;
+         border: 2px solid white;        
+            border-radius: 50px;
+        width: 140px;
+        height: 37px;
+        a{color: #ffffff; display: inline-block;
+    padding: 15px 15px;
+           }}}
+.central-sloy img{width: 100%; 
+    border:none; 
+    height: 201px;}
+.central-sloy img:nth-child(1){z-index: 1;}
+.central-sloy img:nth-child(2){ z-index: 3;
+    background: rgba(0,0,0,0.7);
+    position: relative;bottom:200px;}
+
+.section-slider:nth-child(1){background-color:white;}
+#ex3 > div.section-slider > div > div > div > div > div.sl_slide.slick-slide.slick-current.slick-active > img{ width: 90%;}
+#ex3 > div.section-slider > div > div > ul.slick-dots{
+    display: block;
+    background-color: white;}
+#ex3{background-color: white;}
+div.sl.slick-initialized.slick-slider.slick-dotted{
+        margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+ ul.slick-dots{height: 25px;}
+#ex2 > main > div > h1{    margin-top: 4%;}
+#ex3 > div.section-slider > h1{margin-top: -3%;}
+#ex3 > div.central-sloy > img:nth-child(1){margin-top: 7%;}
+body > div.section-slider > h1{margin-top: 7.5%;}

@@ -1,0 +1,210 @@
+
+
+body{min-width: 1200px;min-height: 737px;background-color: #F3F3F3;
+    header{color: white;
+        img{width:100%;
+        }
+        .head{height: 100hv;}
+        #proba{ padding-bottom: 100vh;opacity: 1;}
+        .site-bmenu{display:block;
+            width:100%;
+            height: auto;
+            position: absolute;
+             z-index: 33;
+            top:0px;left: 0px;
+            right: 0px;
+            bottom: 0px;
+            opacity: 0.5;
+            width: auto;
+            max-height: 68px;
+            padding: 0px;
+            margin: 0px;
+                font-family: "Open Sans";
+                font-size: 15px;
+                font-weight: 600;
+                text-transform: uppercase;
+                    //размещяем по центру всё
+                       display: flex;
+                  justify-content: center;
+                  align-items: center;
+                    justify-content: space-around;
+                    //вот так вот
+                    &__logo{padding: 0px;
+                        height: auto;
+                        width: 10%;
+                        margin-right: 65%;
+                        margin-top: 4%;}
+                    &__list{ display: inline-block; 
+                        a{text-decoration: none;  
+                        color: white; 
+                        font-family: "Open Sans";
+                        font-size: 16px;
+                        font-weight: 400;
+                            line-height: 12px;}
+            }
+                    &__item{ display: inline-block;
+                        text-align: center;}
+                    &__buttom{position: absolute;
+                         bottom: 10%;
+                         background: none;
+                        border: none;
+                        img{hight:20px;
+                            height:auto;}
+                        }
+                    &__main{
+                           letter-spacing:4px;
+                        text-align: center; 
+                        position: absolute;bottom: 50%;
+                        font-family: "Source Sans Pro";
+                        font-size: 35px;
+                        font-weight: 300;
+                        line-height: 70px;
+                        text-transform: uppercase;}
+                    &__text{text-align: center; 
+                        position: absolute; 
+                        text-transform: lowercase;
+                        bottom: 44%;
+                        font-family: "Open Sans";
+                        font-size: 16px;
+                        font-weight: 400;
+                        line-height: 28px;
+                        width:500px;
+                        word-wrap: break-word;}
+            &__text:first-letter{text-transform: uppercase;}
+}
+       
+    }
+    .fixed_menu{position: fixed; 
+        width: 100%; 
+        top: 0;
+        left: 0;
+        padding: 20px;
+        margin: 0px;
+        margin-left: 70%;   
+        margin-top: 1.6%; 
+        background: rgba(0,0,0,0.3);}
+
+    #proba > ul > li> a{margin-left: 5px;}
+   
+    main{width: 100%;height: auto; 
+        padding-top: 25px;
+        .portfolio-menu{
+            &__item1{text-align: center;
+            color: #333b46;
+            font-family: "Source Sans Pro";
+            font-size: 20px;
+            font-weight: 300;
+            line-height: 12px;
+            padding-bottom: 42px;}
+             &__item2{
+                 
+                 text-align: center;
+            color: #81868e;
+            font-family: "Open Sans";
+            font-size: 14px;
+            font-weight: 400px;
+            line-height: 25px;
+            word-wrap: break-word;
+                 margin: 0 auto;
+                     padding:0px;
+            width:370px;}
+        }
+        /* Style for "Background" */
+        
+    }
+}
+
+#menu > li > a:hover{border: 2px solid white;
+    padding: 10px;
+border-radius:50px;}
+
+
+
+  /*Стилизация кнопки ВВЕРХ */
+#back-top{	
+	position:fixed;
+	bottom:30px;
+	left:81%;
+	margin-left:200px
+}
+
+#back-top a{
+	width:64px;
+	display:block;
+	text-align:center;
+	font:11px/100% Arial, Helvetica, sans-serif;
+	text-transform:uppercase;
+	text-decoration:none;
+	color:#bbb;
+	/* background color transition */
+	-webkit-transition:1s;
+	-moz-transition:1s;
+	transition:1s;
+}
+
+#back-top a:hover{color:#000;}
+
+/* графическая стрелка ВВЕРХ */
+#back-top span{
+	width:64px;
+	height:64px;
+	display:block;
+	margin-bottom:7px;
+	background:#ddd url() no-repeat center center;
+	/* rounded corners */
+	-webkit-border-radius:15px;
+	-moz-border-radius:15px;
+	border-radius:15px;
+	/* background color transition */
+	-webkit-transition:1s;
+	-moz-transition:1s;
+	transition:1s;
+}
+
+#back-top a:hover span{background-color:#777}
+#proba > div{margin-right: 76%;
+    margin-top: 8%;}
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+body {
+ font-family: "Open Sans",  Impact;
+}
+
+.area {
+  font-size: 1.5em;
+  color: #fff;
+  letter-spacing: -7px;
+  font-weight: 700;
+  text-transform: uppercase;
+  animation: blur .75s ease-out infinite;
+  text-shadow: 0px 0px 5px #fff, 0px 0px 7px #fff;
+    letter-spacing: 20px;
+}
+
+@keyframes blur {
+  from {
+    text-shadow:0px 0px 10px #fff,
+      0px 0px 10px #fff, 
+      0px 0px 25px #fff,
+      0px 0px 25px #fff,
+      0px 0px 25px #fff,
+      0px 0px 25px #fff,
+      0px 0px 25px #fff,
+      0px 0px 25px #fff,
+      0px 0px 50px #fff,
+      0px 0px 50px #fff,
+      0px 0px 50px #7B96B8,
+      0px 0px 150px #7B96B8,
+      0px 10px 100px #7B96B8,
+      0px 10px 100px #7B96B8,
+      0px 10px 100px #7B96B8,
+      0px 10px 100px #7B96B8,
+      0px -10px 100px #7B96B8,
+      0px -10px 100px #7B96B8;
+  }
+}
+
+
+
+
+

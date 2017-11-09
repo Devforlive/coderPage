@@ -1,0 +1,27 @@
+footer{padding: 0px;background-color: white;
+margin: 0px;}
+      @import url(http://fonts.googleapis.com/css?family=Gafata);
+#map-canvas {
+  height: 439px;
+    widows: 100%;
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Gafata', sans-serif;
+  font-weight: bold;
+}
+.social-voit{margin-top: 40px;
+    &__item1{margin: 0 auto;
+        text-align: center;
+        margin-bottom: 1%;}
+    &__item2{margin: 0 auto;
+        text-align: center;
+width: 250px;
+color: #81868e;
+font-family: "Open Sans";
+font-size: 14px;
+font-weight: 400;
+line-height: 25px;margin-bottom: 2%;}
+    &__item3{align-content: center;
+        text-align: center;
+        padding-bottom: 77px;
+    }}

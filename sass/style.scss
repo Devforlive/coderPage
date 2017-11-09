@@ -1,0 +1,9 @@
+@import "normalize";
+@import "header";
+@import "main";
+@import "footer";
+@media (min-width: 1200px) {
+    .area { width: 1170px; }
+}
+#botadd{border: none;border-radius: 0px;margin-left: 37%;margin-bottom: 2%;}
+a{text-decoration: none;}
