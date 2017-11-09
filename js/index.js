@@ -2,11 +2,11 @@ $(function() {
 
   // Masonry Grid
   $.('.grid').isotope({
-    filter: '*',
+    filter: '*';
     //itemSelector: '.grid-item',
     masonry: {
 
-      fitWidth: false, // When enabled, you can center the container with CSS.
+      fitWidth: true, // When enabled, you can center the container with CSS.
       gutter: 10
     }
     // layoutMode: 'fitRows'
