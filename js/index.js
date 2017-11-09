@@ -3,9 +3,9 @@ $(function() {
   // Masonry Grid
     $('.grid').isotope({
     filter: '*',
-    itemSelector: '.grid-item',
+    // itemSelector: '.grid-item',
     masonry: {
-        columnWidth: 1500,
+
       fitWidth: true, // When enabled, you can center the container with CSS.
       gutter: 10
     }
