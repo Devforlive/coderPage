@@ -1,6 +1,6 @@
 $(function() {
   // Masonry Grid
-  $('.grid').isotope({
+  jQuery('.grid').isotope({
     filter: '*',
     // itemSelector: '.grid-item',
     masonry: {
