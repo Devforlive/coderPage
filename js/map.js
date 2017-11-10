@@ -1,22 +1,17 @@
 function initMap() {
-    var myLatlng = new google.maps.LatLng(46.46117209999999, 30.749565599999983);
-    var mapOptions = {
+    var uluru = {lat: 46.46117209999999, lng: 30.749565599999983 };
+    var map = new google.maps.Map(document.getElementById('map-canvas'), {
         zoom: 4,
-        center: myLatlng
-    },
-
-    map = new google.maps.Map(document.getElementById("map-canvas"), mapOptions);
-
+        center: uluru
+    });
     var marker = new google.maps.Marker({
-        position: myLatlng,
-        title: " { Welcome to Odessa! } ",
+        position: uluru,
+        map: map,
         icon: 'beetroot.png',
-        animation: google.maps.Animation.DROP
+ 		animation: google.maps.Animation.DROP
     });
 }
-// To add the marker to the map, call setMap();
-marker.setMap(map);
-google.maps.event.addDomListener(window, 'load', initMap);
+// google.maps.event.addDomListener(window, 'load', initMap);
 
 
 
