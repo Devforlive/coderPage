@@ -1,7 +1,7 @@
 $(function() {
-
+    var jQuery321 = $.noConflict(true);
   // Masonry Grid
-    $('.grid').isotope({
+    jQuery321('.grid').isotope({
     filter: '*',
         itemSelector: '.grid-item',
     masonry: {
