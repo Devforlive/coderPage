@@ -7,6 +7,7 @@ function initMap() {
     var marker = new google.maps.Marker({
         position: uluru,
         map: map,
+        title: ' { Welcome to Odessa! } ',
         icon: 'beetroot.png',
  		animation: google.maps.Animation.DROP
     });
