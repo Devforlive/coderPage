@@ -11,6 +11,7 @@ function initMap() {
  		animation: google.maps.Animation.DROP
     });
 }
+marker.setMap(map);
 // google.maps.event.addDomListener(window, 'load', initMap);
 
 
