@@ -1,3 +1,4 @@
+
 function initMap() {
     var uluru = {lat: 46.46117209999999, lng: 30.749565599999983 };
     var map = new google.maps.Map(document.getElementById('map-canvas'), {
@@ -7,9 +8,10 @@ function initMap() {
     var marker = new google.maps.Marker({
         position: uluru,
         map: map,
-        title: ' { Welcome to Odessa! } ',
+        title: " { Welcome to Odessa! } ",
         icon: 'beetroot.png',
- 		animation: google.maps.Animation.DROP
+ 		animation: google.maps.Animation.DROP,
+        position: {lat: 46.462, lng: 30.750 }
     });
 }
 marker.setMap(map);
