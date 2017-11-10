@@ -145,7 +145,7 @@ function initMap() {
         "stylers": [
             {
                 "lightness": 10
-            }
+            },
             {
                 "saturation": -30
             }
