@@ -339,7 +339,7 @@ function initialize() {
       
   }
   
-  var map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
+  map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
   directionsDisplay.setMap(map);
          var marker = new google.maps.Marker({
 		position: myLatlng,
