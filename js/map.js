@@ -2,10 +2,10 @@ var directionsDisplay;
 var directionsService = new google.maps.DirectionsService();
 var map;
 
-function initialize() {
+function initMap() {
   directionsDisplay = new google.maps.DirectionsRenderer();
   var myLatlng = new google.maps.LatLng(46.46117209999999,30.749565599999983);
-  
+
   var mapOptions = {
     zoom:7,
     center: myLatlng,
@@ -335,10 +335,10 @@ function initialize() {
         ]
     }
 ]
-      
-      
+
+
   }
-  
+
   map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
   directionsDisplay.setMap(map);
          var marker = new google.maps.Marker({
