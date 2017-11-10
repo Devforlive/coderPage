@@ -4,6 +4,7 @@ $(function() {
     $('.grid').isotope({
     filter: '*',
         itemSelector: '.grid-item',
+        percentPosition: true,
     masonry: {
 
       fitWidth: true, // When enabled, you can center the container with CSS.
