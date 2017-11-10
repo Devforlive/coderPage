@@ -8,8 +8,8 @@ $(function() {
 
       fitWidth: true, // When enabled, you can center the container with CSS.
       gutter: 10
-    }
-    // layoutMode: 'fitRows'
+    },
+    layoutMode: 'fitRows'
   });
 
   $('.filter a').click(function(){
