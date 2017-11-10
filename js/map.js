@@ -145,19 +145,19 @@ function initMap() {
         "stylers": [
             {
                 "lightness": 10
-            },
-            {
-                "saturation": -30
             }
+            // {
+            //     "saturation": -30
+            // }
         ]
     },
     {
         "featureType": "road",
         "elementType": "geometry.stroke",
         "stylers": [
-            {
-                "saturation": 25
-            },
+            // {
+            //     "saturation": 25
+            // },
             {
                 "lightness": 25
             }
