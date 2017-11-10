@@ -3,14 +3,14 @@ $(function() {
   // Masonry Grid
     $('.grid').isotope({
     filter: '*',
-        itemSelector: '.grid-item',
-        percentPosition: true,
+        // itemSelector: '.grid-item',
+        // percentPosition: true,
     masonry: {
 
       fitWidth: true, // When enabled, you can center the container with CSS.
       gutter: 10
     },
-    layoutMode: 'fitRows'
+    // layoutMode: 'fitRows'
   });
 
   $('.filter a').click(function(){
