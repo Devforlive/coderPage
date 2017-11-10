@@ -3,7 +3,7 @@ $(function() {
   // Masonry Grid
     $('.grid').isotope({
     filter: '*',
-        itemSelector: '.grid-item',
+        itemSelector: '.grid-item branding',
     masonry: {
 
       fitWidth: true, // When enabled, you can center the container with CSS.
