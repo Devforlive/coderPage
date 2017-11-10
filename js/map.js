@@ -2,7 +2,7 @@ var directionsDisplay;
 var directionsService = new google.maps.DirectionsService();
 var map;
 
-function initialize() {
+function initMap() {
   directionsDisplay = new google.maps.DirectionsRenderer();
   var myLatlng = new google.maps.LatLng(46.46117209999999,30.749565599999983);
 
@@ -349,4 +349,4 @@ function initialize() {
 
 	});
 }
-google.maps.event.addDomListener(window, 'load', initialize);
+google.maps.event.addDomListener(window, 'load', initMap);
