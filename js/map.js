@@ -387,7 +387,7 @@ var marker;
 function initMap() {
     var map = new google.maps.Map(document.getElementById('map-canvas'), {
         zoom: 13,
-        center: {lat: 46.461, lng: 30.749}
+        center: {lat: 46.46117209999999, lng: 30.749565599999983}
     });
 
     marker = new google.maps.Marker({
@@ -395,7 +395,7 @@ function initMap() {
         draggable: true,
         icon: 'beetroot.png',
         animation: google.maps.Animation.DROP,
-        position: {lat: 46.461, lng: 30.749}
+        position: {lat: 46.46117209999999, lng: 30.749565599999983}
     });
     marker.addListener('click', toggleBounce);
 }
