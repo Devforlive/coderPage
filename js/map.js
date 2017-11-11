@@ -11,7 +11,7 @@ function initMap() {
         title: " { Welcome to Odessa! } ",
         icon: 'beetroot.png',
         animation: google.maps.Animation.DROP,
-        position: {lat: 46.462, lng: 30.750}
+        position: {lat: 46.46117209999999, lng: 30.749565599999983}
     });
 }
 marker.setMap(map);
