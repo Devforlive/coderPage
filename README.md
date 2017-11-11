@@ -1,4 +1,4 @@
-#  CODERS($) {
+#  (CODERS($) {
   });
 
 return 0; :)
