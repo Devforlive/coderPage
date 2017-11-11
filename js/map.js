@@ -368,7 +368,14 @@ function initMap() {
 		map: map,
 		icon: 'beetroot.png',
 		animation: google.maps.Animation.DROP
-
 	});
+}
+marker.addListener('click', toggleBounce);
+function toggleBounce() {
+    if (marker.getAnimation() !== null) {
+        marker.setAnimation(null);
+    } else {
+        marker.setAnimation(google.maps.Animation.BOUNCE);
+    }
 }
 google.maps.event.addDomListener(window, 'load', initMap);
