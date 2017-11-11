@@ -385,7 +385,7 @@
 var marker;
 
 function initMap() {
-    var map = new google.maps.Map(document.getElementById('map-canvas'), {
+    var map = new google.maps.Map(document.getElementById("map-canvas"), {
         zoom: 7,
         center: {lat: 46.46117209999999, lng: 30.749565599999983}
     });
