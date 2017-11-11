@@ -13,10 +13,10 @@ function initMap() {
  		animation: google.maps.Animation.DROP,
         position: {lat: 46.462, lng: 30.750 }
     });
-}
+
 marker.setMap(map);
 //google.maps.event.addDomListener(window, 'load', initMap);
-
+}
 
 
 // var directionsDisplay;
