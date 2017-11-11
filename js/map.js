@@ -1,3 +1,30 @@
+var marker;
+
+function initMap() {
+    var map = new google.maps.Map(document.getElementById('map-canvas'), {
+        zoom: 7,
+        center: {lat: 46.46117209999999, lng: 30.749565599999983}
+    });
+
+    marker = new google.maps.Marker({
+        map: map,
+        draggable: true,
+        icon: 'beetroot.png',
+        animation: google.maps.Animation.DROP,
+        position: {lat: 46.46117209999999, lng: 30.749565599999983}
+    });
+    marker.addListener('click', toggleBounce);
+}
+
+function toggleBounce() {
+    if (marker.getAnimation() !== null) {
+        marker.setAnimation(null);
+    } else {
+        marker.setAnimation(google.maps.Animation.BOUNCE);
+    }
+}
+google.maps.event.addListener(window, 'load', initMap);
+
 //
 // // function initMap() {
 // //     var uluru = {lat: 46.46117209999999, lng: 30.749565599999983};
@@ -382,29 +409,3 @@
 
 
 
-var marker;
-
-$(function initMap() {
-    var map = new google.maps.Map(document.getElementById("map-canvas"), {
-        zoom: 7,
-        center: {lat: 46.46117209999999, lng: 30.749565599999983}
-    });
-
-    marker = new google.maps.Marker({
-        map: map,
-        draggable: true,
-        icon: 'beetroot.png',
-        animation: google.maps.Animation.DROP,
-        position: {lat: 46.46117209999999, lng: 30.749565599999983}
-    }),
-    marker.addListener('click', toggleBounce);
-},
-
-function toggleBounce() {
-    if (marker.getAnimation() !== null) {
-        marker.setAnimation(null);
-    } else {
-        marker.setAnimation(google.maps.Animation.BOUNCE);
-    }
-});
-google.maps.event.addListener(window, 'load', initMap);
