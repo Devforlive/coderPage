@@ -1,6 +1,6 @@
 var marker;
 
-function initialize() {
+function initMap() {
     var map = new google.maps.Map(document.getElementById('map-canvas'), {
         zoom: 7,
         center: {lat: 46.46117209999999, lng: 30.749565599999983}
@@ -23,7 +23,7 @@ function toggleBounce() {
         marker.setAnimation(google.maps.Animation.BOUNCE);
     }
 }
-google.maps.event.addDomListener(window, 'load', initialize);
+google.maps.event.addDomListener(window, 'load', initMap);
 
 //
 // // function initMap() {
