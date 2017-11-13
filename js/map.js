@@ -23,7 +23,7 @@ function toggleBounce() {
         marker.setAnimation(google.maps.Animation.BOUNCE);
     }
 }
-google.maps.event.addListener(window, 'load', initMap);
+google.maps.event.addDomListener(window, 'load', initMap);
 
 //
 // // function initMap() {
