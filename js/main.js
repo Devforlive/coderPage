@@ -22,3 +22,5 @@ $(document).ready(function(){
 	});
 });
 
+$(window).on("resize", function() {
+		$("#menu").css("width", $(window).width() + "px");
